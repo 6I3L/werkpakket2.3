@@ -1,0 +1,223 @@
+[
+    {
+      "id": 1,
+      "title": "Ocean Ring",
+      "description": "Een prachtige oceaanring die doet denken aan de diepte van de zee.",
+      "image": "ocean-ring.jpg",
+      "price": 8.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "ring",
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "title": "Statement Hart Studs",
+      "description": "Opvallende hartvormige oorstekers voor een stijlvolle uitstraling.",
+      "image": "statement-hart-studs.jpg",
+      "price": 8.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "oorbel",
+      "stock": 30
+    },
+    {
+      "id": 3,
+      "title": "Huggie Ring Goud",
+      "description": "Een gouden huggie-ring voor een knusse en trendy look.",
+      "image": "huggie-ring-goud.jpg",
+      "price": 12.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "ring",
+      "stock": 51
+    },
+    {
+      "id": 4,
+      "title": "Abstracte Studs",
+      "description": "Unieke abstracte oorstekers voor een eigentijdse uitstraling.",
+      "image": "abstracte-studs.jpg",
+      "price": 12.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "oorbel",
+      "stock": 20
+    },
+    {
+      "id": 5,
+      "title": "Snake Chain Armband",
+      "description": "Een stijlvolle slangenschakelarmband om je pols te accentueren.",
+      "image": "snake-chain-armband.jpg",
+      "price": 5.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "armband",
+      "stock": 15
+    },
+    {
+      "id": 6,
+      "title": "Zon Ring",
+      "description": "Een stralende zonring die je dag opvrolijkt.",
+      "image": "zon-ring.jpg",
+      "price": 7.00,
+      "vatRate": 21,
+      "kleur": "zilver",
+      "categorie": "ring",
+      "stock": 25
+    },
+    {
+      "id": 7,
+      "title": "Slang Ring",
+      "description": "Een mysterieuze slangenring voor een avontuurlijke look.",
+      "image": "slang-ring.jpg",
+      "price": 7.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "ring",
+      "stock": 10
+    },
+    {
+      "id": 8,
+      "title": "Vlinder Ring",
+      "description": "Een charmante vlinderring voor een speelse uitstraling.",
+      "image": "vlinder-ring.jpg",
+      "price": 7.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "ring",
+      "stock": 30
+    },
+    {
+      "id": 9,
+      "title": "Hart Ring",
+      "description": "Een liefdevolle hartvormige ring om je genegenheid te tonen.",
+      "image": "hart-ring.jpg",
+      "price": 7.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "ring",
+      "stock": 5
+    },
+    {
+      "id": 10,
+      "title": "Kersen Studs",
+      "description": "Schattige kersenoorstekers voor een vrolijke look.",
+      "image": "kersen-studs.jpg",
+      "price": 6.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "oorbel",
+      "stock": 20
+    },
+    {
+      "id": 11,
+      "title": "Face Studs",
+      "description": "Expressieve gezichts-oorstekers voor een unieke uitstraling.",
+      "image": "face-studs.jpg",
+      "price": 6.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "oorbel",
+      "stock": 15
+    },
+    {
+      "id": 12,
+      "title": "Ronde Hoops",
+      "description": "Stijlvolle ronde oorringen voor een tijdloze look.",
+      "image": "ronde-hoops.jpg",
+      "price": 12.00,
+      "vatRate": 21,
+      "kleur": "zilver",
+      "categorie": "oorbel",
+      "stock": 25
+    },
+    {
+      "id": 13,
+      "title": "Heart Studs",
+      "description": "Delicate hartoorstekers om je liefde te tonen.",
+      "image": "heart-studs.jpg",
+      "price": 12.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "oorbel",
+      "stock": 30
+    },
+    {
+      "id": 14,
+      "title": "Dino Studs",
+      "description": "Speelse dinosaurus-oorstekers voor een leuke touch.",
+      "image": "dino-studs.jpg",
+      "price": 7.00,
+      "vatRate": 21,
+      "kleur": "zilver",
+      "categorie": "oorbel",
+      "stock": 10
+    },
+    {
+      "id": 15,
+      "title": "Abstracte Studs",
+      "description": "Moderne abstracte oorstekers voor een eigentijdse uitstraling.",
+      "image": "abstracte-studs-2.jpg",
+      "price": 18.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "oorbel",
+      "stock": 15
+    },
+    {
+      "id": 16,
+      "title": "Dubbele Maan Ring",
+      "description": "Een betoverende dubbele maanring voor een magische look.",
+      "image": "dubbele-maan-ring.jpg",
+      "price": 8.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "ring",
+      "stock": 0
+    },
+    {
+      "id": 17,
+      "title": "Oriental Amethist Ring",
+      "description": "Een oriëntaalse amethistring voor een mystieke uitstraling.",
+      "image": "oriental-amethist-ring.jpg",
+      "price": 12.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "ring",
+      "stock": 18
+    },
+    {
+      "id": 18,
+      "title": "Mini Vlinder Studs",
+      "description": "Kleine vlinder-oorstekers voor een subtiele en elegante look.",
+      "image": "mini-vlinder-studs.jpg",
+      "price": 5.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "oorbel",
+      "stock": 25
+    },
+    {
+      "id": 19,
+      "title": "Lange Chain Oorbellen Met Edelsteen",
+      "description": "Lange oorbellen met een edelsteen voor een glamoureuze uitstraling.",
+      "image": "lange-chain-oorbellen-met-edelsteen.jpg",
+      "price": 12.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "oorbel",
+      "stock": 12
+    },
+    {
+      "id": 20,
+      "title": "Heart Stud",
+      "description": "Een hartvormige oorsteker voor een liefdevolle touch.",
+      "image": "heart-stud.jpg",
+      "price": 3.00,
+      "vatRate": 21,
+      "kleur": "goud",
+      "categorie": "oorbel",
+      "stock": 0
+    }
+  ]
+  

@@ -1,0 +1,460 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('https://fonts.cdnfonts.com/css/sergio-trendy');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+
+// Variabelen
+$primary-color: #ED92BD;
+$button-hover-color: #F2BCD4;
+$bg:white;
+// Header 
+header {
+    background-color: white;
+    color: $primary-color;
+    padding: 15px;
+    text-align: center;    
+}
+
+h1{
+  color: $primary-color;
+  font-size: 25px;
+  font-weight: light;
+  font-family: 'Sergio Trendy', serif;
+font-weight: 100;
+margin-bottom: 50px;
+}
+
+h2{
+  color: $primary-color;
+  font-size: 25px;
+      font-weight: light;
+      font-family: 'Sergio Trendy', serif;
+    font-weight: 100;
+}
+
+// Navigatie 
+nav {
+    ul {
+        list-style: none;
+    }
+
+    ul li {
+        display: inline;
+        margin-right: 20px;
+        &:hover{
+          color: $button-hover-color;
+        }
+    }
+}
+//banner
+
+.banner {
+  width: 100%;
+  height: 500px;
+  background-image: url('../components/img/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+//product stijlen
+
+select, .pagination button{
+  color: white;
+  background-color: $primary-color;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 3px;
+
+  &:active{
+    background-color: $button-hover-color;
+  }
+}
+
+.product-filter {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.pagination{
+margin-top: 25px;
+margin-bottom: 50px;}
+
+.filters{
+  display: flex;
+  
+  div{
+    margin-right: 20px;
+  }
+}
+
+// Productkaarten stijlen afgelijd van https://codepen.io/sowmyaseshadri/pen/KxQMEP
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+
+  .container {
+    width: calc(25% - 20px);
+    height: calc(25vw - 20px);
+      margin: 10px;
+      background: url("../components/img/product.jpg");
+      background-color: black;
+      background-size: cover;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+
+      .overlay {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background: $button-hover-color;
+          color: $bg;
+          opacity: 0;
+          transition: all 0.5s; 
+          padding: 20px;
+          box-sizing: border-box;
+
+          .head {
+              font-size: 20px;
+              transform: translateY(40px);
+              transition: all 0.7s;
+
+              hr {
+                  display: block;
+                  width: 0;
+                  border: none;
+                  border-bottom: solid 2px $bg;
+                  position: absolute;
+                  bottom: 0;
+                  transition: all .5s;
+              }
+          }
+
+          .price {
+              font-size: 20px;
+              line-height: 10px;
+              opacity: 0;
+              transform: translateY(40px);
+              transition: all 0.7s;
+          }
+
+          .cart {
+              opacity: 0;
+              transform: translateY(40px);
+              transition: all 0.7s;
+
+              button {
+                  font-size: 15px;
+                  max-width: 100%;
+                  padding: 10px;
+                  color: $button-hover-color;
+                  border: none;
+                  background-color: white;
+                  cursor: pointer;
+                  &:hover{
+                    opacity: 0.5;
+                  }
+              }
+
+              span {
+                  margin-left: 10px;
+              }
+          }
+      }
+
+      &:hover .overlay {
+          opacity: 0.8;
+          .head {
+              transform: translateY(0px);
+          }
+
+          hr {
+              width: 100%;
+              transition-delay: 0.4s;
+          }
+
+          .price {
+              transform: translateY(0px);
+              transition-delay: 0.3s;
+              opacity: 1;
+          }
+
+          .cart {
+              transform: translateY(0px);
+              transition-delay: 0.6s;
+              opacity: 1;
+          }
+      }
+  
+  
+   // tablets (768px)
+   @media (max-width: 768px) {
+    height: calc(50vw - 20px);
+    width: calc(50% - 20px); 
+    margin: 10px;
+  }
+
+  // smartphones (480px)
+  @media (max-width: 430px) {
+    height: calc(100vw);
+    width: calc(100% - 20px); 
+  }
+
+  @media (min-width: 1000px) {
+    width: calc(250px - 20px); 
+    height: calc(250px - 20px);
+  }
+}  
+}
+
+//product-detail
+
+.product-detail {
+
+  button {
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $button-hover-color;
+    }
+
+    
+}
+#aantal{
+      width: 50px;
+      margin-bottom: 25px;
+    }
+}
+
+
+// Footer
+footer {
+  background-color: $primary-color;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 100vw;
+  margin-top: 50px;
+
+  .social-icons {
+      display: flex;
+      margin-bottom: 20px;
+      margin-top: 20px;
+
+      a {
+          margin: 0 10px;
+          color: white;
+          font-size: 25px;
+ i{
+  &:hover{
+    color: $button-hover-color;
+  }
+}
+ }
+         
+  }
+h2{
+  color: white;
+}
+  .footer-columns {
+      display: flex;
+      justify-content: space-between;
+      width: calc(100% - 20px);
+
+      .column {
+          width: 50%;
+
+          h3 {
+              font-size: 18px;
+              margin-bottom: 10px;
+          }
+
+          ul {
+              list-style: none;
+              padding: 0;
+              li {
+                  margin-bottom: 8px;
+                  a {
+                      color: white;
+                      text-decoration: none;
+                      &:hover {
+                          text-decoration: underline;
+                      }
+                  }
+              }
+          }
+      }
+      @media (max-width: 750px) {
+        flex-direction: column;
+        width: 80vw;
+      }
+
+  }
+
+  .contact-info {
+      margin-top: 20px;
+  }
+
+  article{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+// Login-formulier 
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+
+    input, button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: $primary-color;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: $button-hover-color;
+        }
+    }
+}
+
+// email form
+
+
+.email-form {
+  max-width: 100%;
+  margin: 0 auto;
+
+  form {
+      display: flex;
+      flex-direction: column;
+  }
+
+  label,
+  input,
+  textarea {
+    font-size: 15px;
+      margin-bottom: 10px;
+      border: none;
+      padding: 5px;
+  }
+
+  textarea{
+    height: 300px;
+    margin-bottom: 15px;
+  }
+
+  button {
+      background-color: $primary-color;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+          background-color: white;
+          color: $primary-color;
+      }
+  }
+}
+
+// Andere algemene 
+  * {
+    box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; 
+}
+
+article{
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+  flex: 1; 
+
+  @media (min-width: 1000px) {
+    margin: auto;
+  }
+
+}
+
+article.row{
+  display: flex;
+  flex-direction:row-reverse;
+justify-content: space-between;
+align-items: center;
+
+.text-row{
+  width: 40%;
+  color: white;
+  font-size: 15px;
+  line-height: 30px;
+  @media (max-width: 768px) {
+    width: calc(100% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  flex-direction: column !important ;
+}
+
+}
+
+article.twee{
+  flex-direction:row;
+}
+.roze{
+  background-color: $button-hover-color;
+ max-width: 100vw;
+  margin: 50px 0px 50px 0px;
+  padding: 20px 0px 20px 0px;
+  img{
+    width: 45%;
+    max-height: 100%;
+
+    @media (max-width: 768px) {
+
+      width: calc(100% - 20px);
+    }
+
+  }
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
