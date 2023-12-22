@@ -28,6 +28,5 @@
   </script>
   
   <style scoped>
-  /* Voeg hier stijlen toe die specifiek zijn voor het Product-component */
   </style>
   

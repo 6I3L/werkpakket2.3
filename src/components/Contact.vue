@@ -28,6 +28,6 @@
   </script>
   
   <style scoped>
-  /* voeg hier stijlen toe die specifiek zijn voor het Contact-component */
+
   </style>
   

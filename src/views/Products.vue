@@ -105,5 +105,4 @@ export default {
 </script>
 
 <style scoped>
-/* Voeg hier stijlen toe die specifiek zijn voor het Products-component */
 </style>

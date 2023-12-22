@@ -89,6 +89,5 @@
   button:hover {
     background-color: $button-hover-color;
   }
-/* Voeg hier stijlen toe die specifiek zijn voor de checkoutpagina */
 </style>
   

@@ -76,7 +76,7 @@ select {
   margin-left: 10px;
 }
 
-/* Voeg hier aanvullende stijlen toe voor de winkelmandknop */
+
 button {
   background-color: $primary-color;
   color: white;

@@ -37,6 +37,6 @@ export default {
   
   
   <style scoped>
-  /* voeg hier stijlen toe die specifiek zijn voor het Producten-component */
+
   </style>
   

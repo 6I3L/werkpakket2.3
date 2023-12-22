@@ -26,5 +26,5 @@ export default {
 </script>
 
 <style>
-/* Voeg hier algemene stijlen toe die van toepassing zijn op de hele applicatie */
+
 </style>

@@ -20,6 +20,5 @@
   </script>
   
   <style scoped>
-  /* voeg hier stijlen toe die specifiek zijn voor het Roze-component */
   </style>
   
